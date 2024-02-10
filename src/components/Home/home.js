@@ -1,7 +1,17 @@
 import "../Home/home.css";
 
 const Home = () => {
-  return <>nopjfnpicu3qeqxhefnou3yghnfougougfouq3yquxegnuoqfe</>;
+  return (
+    <>
+      <div className="body">
+        <div className="banner">
+          <img src="" alt=""></img>
+          <img src="" alt=""></img>
+          <img src="" alt=""></img>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Home;
