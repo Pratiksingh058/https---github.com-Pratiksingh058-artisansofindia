@@ -6,7 +6,7 @@
 .slider {
     display: flex;
     width: 400%; /* Adjust based on the number of images */
-    animation: slide 12s infinite linear;
+    animation: slide 8s linear infinite; /* Adjust the animation duration as needed */
 }
 
 .slide {
@@ -26,8 +26,10 @@
     text-align: center;
 }
 
+/* Keyframe animation for sliding effect */
 @keyframes slide {
-    0% {
+    0%,
+    100% {
         transform: translateX(0);
     }
     25% {
@@ -38,8 +40,5 @@
     }
     75% {
         transform: translateX(-300%);
-    }
-    100% {
-        transform: translateX(0);
     }
 }
