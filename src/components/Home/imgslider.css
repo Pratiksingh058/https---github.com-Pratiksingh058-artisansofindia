@@ -1,0 +1,45 @@
+.banner-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 400%; /* Adjust based on the number of images */
+    animation: slide 12s infinite linear;
+}
+
+.slide {
+    flex: 1;
+    height: 300px; /* Adjust based on your design */
+    background-size: cover;
+}
+
+.search-bar-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
