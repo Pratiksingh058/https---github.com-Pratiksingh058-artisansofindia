@@ -1,7 +1,7 @@
 import "../Home/home.css";
 
 const Home = () => {
-  return <></>;
+  return <>nopjfnpicu3qeqxhefnou3yghnfougougfouq3yquxegnuoqfe</>;
 };
 
 export default Home;
