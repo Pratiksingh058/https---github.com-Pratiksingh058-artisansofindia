@@ -1,8 +1,7 @@
 import "../Home/home.css";
 
 import ImgSlider from "../Home/imgslider";
-
-import image1 from "../Assets/Images/banner1.svg";
+import Category from "../Categories/categories";
 
 const Home = () => {
   return (
@@ -10,6 +9,9 @@ const Home = () => {
       <div className="body">
         <div className="banner">
           <ImgSlider />
+        </div>
+        <div className="categories">
+          <Category />
         </div>
       </div>
     </>
